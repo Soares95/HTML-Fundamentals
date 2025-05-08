@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+</head>
+<body>
+    <h1 id="inicio">Conceitos básicos de HTML</h1>
+    <hr> 
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#Estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#Falando">Falando sobre Tags</a></li>
+        <li><a href="#Atributos">Atributos das Tags</a></li>
+        <li><a href="#Textos">Textos</a></li>
+        <li><a href="#Listas">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#Links">Links</a></li>
+        <li><a href="#Referências">Referências</a></li>
+    </ul>
+    <h2 id="Estrutura">Estrutura básica do HTML</h2>
+    <p>A estrutura básica do HTML é composta por várias tags que organizam e definem o conteúdo da página web. São elas:
+        <ol>
+            <li> < ! DOCTYPE html > : Declara que este documento é um documento HTML5.</li>
+            <li> < html lang="pt-br" > : A tag raiz do documento HTML, com o atributo lang especificando o idioma da página.</li>
+            <li> < head > : Contém metadados sobre o documento, como o charset, título e informações de viewport.
+            </li>
+            <li> < meta charset="UTF-8" > : Define a codificação de caracteres do documento.</li>
+            <li> < meta name="viewport" content="width=device-width, initial-scale=1.0" > :Define as configurações de visualização para dispositivos móveis.</li>
+            <li> < title > Título da Página < / title > : Define o título da página, que aparece na aba do navegador.</li>
+            <li> < body > : Contém todo o conteúdo visível da página.</li>
+            <li> < header > : Define a seção de cabeçalho da página, geralmente contendo o título principal.</li>
+            <li> < main > : Contém o conteúdo principal da página.</li>
+            <li> < footer > : Define a seção de rodapé da página.</li>
+        </ol>
+    </p>
+    <h2 id="Falando">Falando sobre Tags</h2>
+    <small><a href="#inicio">(voltar)</a></small>
+    <p>
+        são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
+existem milhares de tags ex: tag < i >(itálico), < strong > (negrito). < Mark > </ mark >(marca texto). < Sup >®,* < / sup (definir texto sobrescrito).
+    </p>
+    <h2>Atributos das Tags</h2>
+    <p>
+        Cada Tag HTML podem ter atributos globais e específicos. Estes atributos podem ter informações adicionais sobre a Tag ou definem como ela deve ser exibida. Tais atributos são colocados dentro da Tag de abertura que na maioria das vezes consistem em um nome de atributo e um valor. Ex:
+        <h3>Atributos Globais</h3>
+        <ul>
+            <li>Id = (Identificador de elemento) Quando trabalhado no JavaScript, essa linguagem tem como ler o html e pegar um elemento específico e trocar o conteúdo dele via linha de código por exemplo. Se clicar no botão ele altera o texto. Serve para identificar bo JavaScript qual elemento se quer alterar</li>
+            <li>Style = colocar comandos no css direto no elemento. Serve para formatar deixar bonito.</li>
+            <li> Class = padronizar tudo que tiver título principal na página ficar de uma cor ou no formato que eu predefinir.</li>  
+        </ul>
+    </p>
+        <h3 id="Atributos">Atributos Específicos</h3>
+        <h4>Tag < a > (âncora/hiperlink)</h4>
+
+        <ul>
+            <li>href: Especifica a URL para a qual o link aponta.</li>
+            <li>target: Define onde abrir o link (ex. _blank para abrir em uma nova aba).</li>    
+            <li>rel: Especifica a relação entre o documento atual e o linkado (ex. nofollow).</li>           
+        </ul>
+        <h4>Tag < img > (imagem)</h4>
+        <ul>
+            <li>src: Especifica o caminho da imagem.</li>
+            <li>alt: Fornece um texto alternativo que descreve a imagem.</li>
+            <li>width e height: Define a largura e a altura da imagem.</li>
+        </ul>
+        <h4>Tag < form > (formulário)</h4>
+        <li>action: Define a URL para onde os dados do formulário são enviados.</li>
+        <li>method: Define o método de envio (GET ou POST).</li>
+
+        <h2 id="Textos">Textos</h2>
+        <p>
+        há várias tags que você pode usar para estruturar e formatar textos. Aqui estão algumas das principais tags de texto em HTML:
+        <h3>Tags de Títulos</h3>
+        <ul>
+            <li> < h1 > a < h6 >: Definem títulos, onde < h1 > é o título mais importante e < h6 > o menos importante.</li>
+        </ul>
+        </p>
+        <h3>Tags de Paragrafos</h3>
+        <ul>
+            <li> < p >: Define um parágrafo.</li>
+        </ul>
+        <h3>Tags de Formatação de Texto</h3>
+        <ul>
+            <li> < b > ou < strong > : Deixa o texto em negrito.</li>
+            <li> < i > ou < em > : Deixa o texto em itálico.</li>
+            <li> < u > : Sublinha o texto.</li>
+        </ul>
+        <h3>Tags de Listas</h3>
+        <ul>
+            <li> < ul > : Define uma lista não ordenada (com marcadores).</li>
+            <li> < ol > : Define uma lista ordenada (numerada).</li>
+            <li> < li > : Define um item de lista.</li>
+        </ul>
+        <h3>Outras Tags Úteis</h3>
+        <ul>
+            <li> < a > : Cria um hiperlink.</li>
+            <li> < br > : Insere uma quebra de linha.</li>
+            <li> < hr > : Insere uma linha horizontal.</li>
+        </ul>
+        <h2 id="Listas">Listas ordenadas e não ordenadas</h2>
+        <p>
+            ol= lista ordenada. ul= lista não ordenada. A ul não utiliza números, ao contrário da ol que possui em sua sequência números. 
+        </p>
+        <h2 id="Links">Links</h2>
+        <p>
+            Um link nada mais é do que estar navegando de um página para outra. Exemplo:
+            <ul>
+                <li>href - referência < a href="http://dio.me"  title="Clique aqui e confira" target="_blank" ou _self">Sobre a empresa < /a >. "</li>
+                <li>_blank abre em outra aba no navegador</li>
+                <li>_self abre na mesma aba do navegador</li>
+                <li>Ctrl e click abre em outra aba, shift e click abre em nova página</li>
+                <li>about.html - para o usuário nao sair do site e clicar em sobre a empresa.</li>
+            </ul>
+        </p>
+        <h2 id="Referências">Referências</h2>
+         <p>
+            Segue links abaixo para uma maior curadoria sobre o assunto:
+            <ul>
+                <li>
+                    http://dio.me
+                </li>
+                <li>
+                    https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Structuring_content
+                </li>
+                <li>
+                    https://7daysofcode.io/matricula/html-css-linkedin
+                </li>
+                <li>
+                    https://www.ev.org.br/cursos/crie-um-site-simples-usando-html-css-e-javascript
+                </li>
+                <li>
+                    https://www.w3schools.com/html/html_basic.asp
+                </li>
+                <li>
+                    https://www.w3schools.com/tags/ref_byfunc.asp
+                </li>
+            </ul>
+         </p>
+
+</body>
+</html>
